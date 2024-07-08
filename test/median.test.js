@@ -21,6 +21,6 @@ describe('median', () => {
 
     test('devrait lancer une erreur pour un tableau vide', () => {
         const tableau = [];
-        expect(() => median(tableau)).toThrow("Le tableau est vide.");
+        expect(() => median(tableau)).toThrow("Le tableau ne doit pas être vide");
     });
 });
